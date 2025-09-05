@@ -1,0 +1,22 @@
+/* styles.css */
+
+.pumpkin {
+    color: rgb(192, 138, 39);
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+* {
+  outline: 2px solid rgb(2, 0, 0);
+  padding: 2px;
+  border: 2px;
+  margin: 4px;
+}
+
+#USA {
+  color:rgba(5, 0, 8, 0.411);
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
