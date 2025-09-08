@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+}
+
+.container.page{
+    flex-direction: column;
+}
+
+.container.strip{
+    background-color: rgb(27, 25, 54);
+}
+
+.container.main{
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.vert{
+    flex-direction: column;
+}
+
+.item{
+    flex: 1;
+    /* border: 2px solid white; */
+    padding: 4px;
+}
+
+.header{
+    font-family: Roboto;
+    font-size: 24px;
+    color: white;
+}
+
+.subheader{
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+}
+
+.maintext-top{
+    font-family: Roboto;
+    font-size: 48px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.linktext{
+    font-family: Roboto;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.smallbox{
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border-radius: 6px;
+    border: none;
+}
+
+.button.one{
+    background:none;
+}
+
+button.one:hover{
+    background-color: rgb(6, 77, 125);
+}
+
+.button.two{
+    background-color: rgb(10, 132, 213);
+}
+
+button.two:hover{
+    background-color: rgb(8, 109, 175);
+}
