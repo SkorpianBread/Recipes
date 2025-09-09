@@ -20,24 +20,37 @@
 
 .container.vert{
     flex-direction: column;
+    align-items: normal;
 }
+
+.container.cta{
+    background-color: rgb(10, 132, 213);
+    height: 180px;
+    border-radius: 6px;
+}
+
+
 
 .item{
     flex: 1;
-    /* border: 2px solid white; */
+    /* border: 2px solid rgb(163, 17, 17); */
     padding: 4px;
 }
+
+
 
 .header{
     font-family: Roboto;
     font-size: 24px;
     color: white;
+    font-weight: 800;
 }
 
 .subheader{
     font-family: Roboto;
     font-size: 18px;
-    color: rgb(163, 163, 163);
+    color: lightgray;
+    font-weight: 560;
 }
 
 .maintext-top{
@@ -53,10 +66,44 @@
     color: whitesmoke;
 }
 
+.infotext{
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.blacktext{
+    font-family: Roboto;
+    font-size: 36px;
+    color: rgb(25, 25, 25);
+    font-weight: 900;
+}
+
+.quotertext{
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgb(25, 25, 25);
+    text-align: end;
+    font-weight: bold;
+}
+
+.quotetext{
+    font-family: Roboto;
+    font-size: 36px;
+    color: rgb(25, 25, 25);
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
 .smallbox{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .button{
     border-radius: 6px;
@@ -73,8 +120,26 @@ button.one:hover{
 
 .button.two{
     background-color: rgb(10, 132, 213);
+    height: 30px;
+    width: 120px;
 }
 
 button.two:hover{
     background-color: rgb(8, 109, 175);
+}
+
+.box{
+    border: 4px solid rgb(8, 109, 175);
+    border-radius: 16px;
+    height: 160px;
+    width: 160px;
+    align-content: center;
+    text-align: center;
+}
+
+.imgbox{
+    height: 160px;
+    width: 160px;
+    border-radius: 16px;
+    border: 4px solid rgb(8, 109, 175);
 }
