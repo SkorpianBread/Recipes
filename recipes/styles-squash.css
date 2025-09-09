@@ -19,7 +19,7 @@
 .item{
     flex: 1;
     background-color: rgb(192, 90, 17);
-    background-image: url(../china.jpeg);
+    /* background-image: url(../china.jpeg); */
     border: 6px solid rgb(183, 16, 111);
     height: auto;
     padding: 10px;
