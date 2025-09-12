@@ -11,9 +11,9 @@
 }
 
 .container.main{
-    padding-left: 200px;
-    padding-right: 200px;
-    height: 400px;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    height: 25em;
     justify-content: center;
     align-items: center;
 }
@@ -41,48 +41,48 @@
 
 .header{
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 1.5em;
     color: white;
     font-weight: 800;
 }
 
 .subheader{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.125em;
     color: lightgray;
     font-weight: 560;
 }
 
 .maintext-top{
     font-family: Roboto;
-    font-size: 48px;
+    font-size: 3em;
     color: whitesmoke;
     font-weight: 900;
 }
 
 .linktext{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.125em;
     color: whitesmoke;
 }
 
 .infotext{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.125em;
     color: rgb(100, 100, 100);
     text-align: center;
 }
 
 .blacktext{
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 2.25em;
     color: rgb(25, 25, 25);
     font-weight: 900;
 }
 
 .quotertext{
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1.25em;
     color: rgb(25, 25, 25);
     text-align: end;
     font-weight: bold;
@@ -90,7 +90,7 @@
 
 .quotetext{
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 2.25em;
     color: rgb(25, 25, 25);
     font-weight: 300;
     font-style: italic;
