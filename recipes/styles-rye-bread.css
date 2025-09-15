@@ -1,0 +1,53 @@
+.header{
+    font-family: Roboto;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 800;
+}
+
+.subheader{
+    font-family: Roboto;
+    font-size: 1.125em;
+    color: lightgray;
+    font-weight: 560;
+}
+
+.maintext-top{
+    font-family: Roboto;
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+
+.container{
+    display: flex;
+}
+
+.container.page{
+    flex-direction: column;
+}
+
+.container.strip{
+    background-color: rgb(27, 25, 54);
+}
+
+.container.main{
+    padding-left: 11vw;
+    padding-right: 11vw;
+    height: 25em;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.vert{
+    flex-direction: column;
+    align-items: normal;
+}
+
+
+.item{
+    flex: 1;
+    /* border: 2px solid rgb(163, 17, 17); */
+    padding: 4px;
+}
